@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
+		"target": "ES2017",
+		"lib": [
+			"ESNext",
+			"DOM"
+		],
+		"module": "CommonJS",
+		"esModuleInterop": true,
+		"jsx": "react-jsx",
+		"types": [
+			"jest"
+		],
+	},
+	"include": [
+		"src"
+	],
+}
